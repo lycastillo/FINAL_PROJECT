@@ -514,8 +514,8 @@ strong {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  min-width: 550px;
-  max-width: 550px;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .hero svg {
