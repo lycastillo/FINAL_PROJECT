@@ -633,6 +633,15 @@ strong {
   transition: all 0.5s;
 }
 
+.services-thumb img {
+        position: absolute;
+        top: -30px; 
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
 .services-thumb-up {
   position: relative;
   bottom: 50px;
