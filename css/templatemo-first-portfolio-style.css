@@ -496,10 +496,14 @@ strong {
 .hero-image {
   position: absolute;
   z-index: 22;
-  top: 0;
+  top: 50%; /* Center the top of the image vertically */
+  transform: translateY(-50%); /* Move the image up by half of its height */
+  right: 0; /* Align the image to the right of its container */
   width: 100%;
-  min-width: 550px;
+  max-width: 550px;
+  min-width: 300px; /* Adjust this value based on your design */
 }
+
 
 .hero svg {
   position: absolute;
