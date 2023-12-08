@@ -496,9 +496,8 @@ strong {
 .hero-image {
   position: absolute;
   z-index: 22;
-  top: 50%; /* Center the top of the image vertically */
-  transform: translateY(-50%); /* Move the image up by half of its height */
-  right: 0; /* Align the image to the right of its container */
+  top: 20%; /* Adjust this value to lift the image higher */
+  right: 0;
   width: 100%;
   max-width: 550px;
   min-width: 300px; /* Adjust this value based on your design */
