@@ -495,14 +495,11 @@ strong {
 
 .hero-image-wrap {
   background: var(--white-color);
-  border-radius: 100%;
+  border-radius: 50%;
   width: 350px;
   height: 350px;
-  position: absolute;
+  position: relative;
   z-index: 22;
-  top: -50px;
-  right: 0;
-  left: 0;
   margin: auto;
   pointer-events: none;
 }
@@ -512,7 +509,7 @@ strong {
   z-index: 22;
   top: 0;
   width: 100%;
-  min-width: 550px;
+  max-width: 550px;
 }
 
 .hero svg {
